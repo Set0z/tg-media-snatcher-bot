@@ -1,9 +1,19 @@
-## tg-media-snatcher-bot
-
-
+<h1 align="center">tg-media-snatcher-bot</h1>
+<div align="center">
 tg-media-snatcher-bot - is a Telegram media Bot that allows you to download, and forward media time-limited (TTL) files content.
+  
+## `🚨 Telegram Premium Needed! 🚨`
 
-### `🚨 Telegram Premium Needed!!! 🚨`
+</div>
+
+<h1 align="center">Navigation </h1>
+
+- [Installation](#installation)
+- [Install dependencies](#installation)
+- [Configuration](#configuration)
+- [Launch](#launch)
+- [Bot Settings](#bot-settings)
+- [How to get media](#how-to-get-media)
 
 ## Installation
 
@@ -35,7 +45,7 @@ TOKEN=YOUR_BOT_TOKEN
 OWNER=YOUR_USER_ID
 ```
 
-## Usage
+## Launch
 
 Run the script with:
 
@@ -49,3 +59,11 @@ Go to `BotFather`, select your bot whose token you specified in .env
 In the bot settings, enable the `"Business Mode"` parameter
 
 Add your bot to the necessary chats using `Telegram Premium` features
+
+## How to get media
+
+In order for the bot to send you a disappearing message, you must reply to it in the chat to which the bot is connected and running
+
+### `🚨 Do not look at the message until you reply!`
+
+If the message timer starts counting down, the bot will not be able to send it to you!
